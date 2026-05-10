@@ -41,7 +41,7 @@ Der feste Zielordner ist:
 Bei Lutz also normalerweise:
 
 ```text
-C:\Users\lugm\fotogeocheck
+C:\Users\Lutz\fotogeocheck
 ```
 
 ## ExifTool
