@@ -1,0 +1,3 @@
+Hier muss exiftool.exe liegen.
+ExifTool wird nicht automatisch heruntergeladen.
+Falls deine Datei exiftool(-k).exe heisst, bitte in exiftool.exe umbenennen.
