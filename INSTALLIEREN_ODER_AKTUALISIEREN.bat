@@ -32,7 +32,7 @@ if not exist "%TARGET%\reports" mkdir "%TARGET%\reports"
 if not exist "%TARGET%\tools" mkdir "%TARGET%\tools"
 
 copy /Y "%SRC%FotoGeoCheck.ps1" "%TARGET%\FotoGeoCheck.ps1" >nul
-copy /Y "%SRC%SpeedCommander-FotoGeoCheck-Starter.vbs" "%TARGET%\SpeedCommander-FotoGeoCheck-Starter.vbs" >nul
+copy /Y "%SRC%SpeedCommander-FotoGeoCheck-Starter.scmac" "%TARGET%\SpeedCommander-FotoGeoCheck-Starter.scmac" >nul
 copy /Y "%SRC%Start-Pruefung.bat" "%TARGET%\Start-Pruefung.bat" >nul
 copy /Y "%SRC%Start-Reparatur.bat" "%TARGET%\Start-Reparatur.bat" >nul
 copy /Y "%SRC%Start-SpeedCommander-kompatibel.bat" "%TARGET%\Start-SpeedCommander-kompatibel.bat" >nul
