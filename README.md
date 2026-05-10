@@ -88,7 +88,7 @@ Im Reparaturmodus werden Metadaten aus dem passenden Originalbild in die vorbere
 Als Starter verwenden:
 
 ```text
-SpeedCommander-FotoGeoCheck-Starter.vbs
+SpeedCommander-FotoGeoCheck-Starter.scmac
 ```
 
 Wenn im SpeedCommander eine oder mehrere Dateien markiert sind, werden genau diese Dateien geprüft.
