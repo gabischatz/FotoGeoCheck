@@ -4,9 +4,9 @@ setlocal EnableExtensions
 REM UTF-8-Konsole fuer Windows 10/11.
 chcp 65001 >nul 2>&1
 
-title FotoGeoCheck v1.1.7 installieren/aktualisieren
+title FotoGeoCheck v1.1.8 installieren/aktualisieren
 
-echo FotoGeoCheck v1.1.7 installieren/aktualisieren
+echo FotoGeoCheck v1.1.8 installieren/aktualisieren
 echo.
 echo Standard-Ziel: %USERPROFILE%\fotogeocheck
 echo.
@@ -36,7 +36,7 @@ if not exist "%TARGET%\reports" mkdir "%TARGET%\reports"
 if not exist "%TARGET%\tools" mkdir "%TARGET%\tools"
 
 call :copy_file "FotoGeoCheck.ps1" "%TARGET%\FotoGeoCheck.ps1"
-call :copy_file "SpeedCommander-FotoGeoCheck-Starter.vbs" "%TARGET%\SpeedCommander-FotoGeoCheck-Starter.vbs"
+call :copy_file "SpeedCommander-FotoGeoCheck-Starter.scmac" "%TARGET%\SpeedCommander-FotoGeoCheck-Starter.scmac"
 call :copy_file "Start-Pruefung.bat" "%TARGET%\Start-Pruefung.bat"
 call :copy_file "Start-Reparatur.bat" "%TARGET%\Start-Reparatur.bat"
 call :copy_file "Start-SpeedCommander-kompatibel.bat" "%TARGET%\Start-SpeedCommander-kompatibel.bat"
