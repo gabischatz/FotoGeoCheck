@@ -90,7 +90,7 @@ Start-Pruefung.bat
 Eine oder mehrere Dateien markieren und starten:
 
 ```text
-SpeedCommander-FotoGeoCheck-Starter.vbs
+SpeedCommander-FotoGeoCheck-Starter.scmac
 ```
 
 Wenn Dateien markiert sind, werden genau diese Dateien geprüft.
